@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.css" />
+    <link type="text/css" rel="stylesheet" href="css/bootstrap-responsive.css" />
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.overrides.css" />
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <script type="text/template" id="adminTemplate">
+        <div>
+            <a href="#adminCategories"><i class="icon-book"></i> Categories</a>
+            <br />
+            <a href="#adminProducts"><i class="icon-book"></i> Products</a>
+        </div>
+    </script>
+    <script type="text/template" id="usersTemplate">
+        <div>
+            <a href="#products"><i class="icon-book"></i> Products</a>
+            <br />
+            <a href="#basket"><i class="icon-book"></i> Basket</a>
+        </div>
+    </script>
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-inner">
+            <a class="brand" href="#administration">Administration</a>
+            <a class="brand" href="#users">Users</a>
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div id="sidebar" class="span2 well">
+
+            </div>
+            <div id="content" class="span10 well">
+
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/libs/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/libs/underscore.js"></script>
+    <script type="text/javascript" src="js/libs/json2.js"></script>
+    <script type="text/javascript" src="js/libs/backbone.js"></script>
+    <script type="text/javascript" src="js/app/app.js"></script>
+
+    <script type="text/javascript" src="js/app/views/baseview.js"></script>
+    <script type="text/javascript" src="js/app/views/adminview.js"></script>
+    <script type="text/javascript" src="js/app/views/usersview.js"></script>
+</body>
+</html>

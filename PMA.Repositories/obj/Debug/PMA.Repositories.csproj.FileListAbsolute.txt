@@ -1,0 +1,17 @@
+D:\Projects\iTechArt Products management\PMA\PMA.Repositories\bin\Debug\PMA.Repositories.dll
+D:\Projects\iTechArt Products management\PMA\PMA.Repositories\bin\Debug\PMA.Repositories.pdb
+D:\Projects\iTechArt Products management\PMA\PMA.Repositories\bin\Debug\MongoDB.Bson.dll
+D:\Projects\iTechArt Products management\PMA\PMA.Repositories\bin\Debug\PMA.DataAccess.dll
+D:\Projects\iTechArt Products management\PMA\PMA.Repositories\bin\Debug\PMA.Entities.dll
+D:\Projects\iTechArt Products management\PMA\PMA.Repositories\bin\Debug\PMA.Helpers.dll
+D:\Projects\iTechArt Products management\PMA\PMA.Repositories\bin\Debug\MongoDB.Driver.dll
+D:\Projects\iTechArt Products management\PMA\PMA.Repositories\bin\Debug\PMA.DataAccess.pdb
+D:\Projects\iTechArt Products management\PMA\PMA.Repositories\bin\Debug\PMA.Entities.pdb
+D:\Projects\iTechArt Products management\PMA\PMA.Repositories\bin\Debug\PMA.Helpers.pdb
+D:\Projects\iTechArt Products management\PMA\PMA.Repositories\bin\Debug\MongoDB.Bson.pdb
+D:\Projects\iTechArt Products management\PMA\PMA.Repositories\bin\Debug\MongoDB.Bson.xml
+D:\Projects\iTechArt Products management\PMA\PMA.Repositories\bin\Debug\MongoDB.Driver.pdb
+D:\Projects\iTechArt Products management\PMA\PMA.Repositories\bin\Debug\MongoDB.Driver.xml
+D:\Projects\iTechArt Products management\PMA\PMA.Repositories\obj\Debug\PMA.Repositories.csprojResolveAssemblyReference.cache
+D:\Projects\iTechArt Products management\PMA\PMA.Repositories\obj\Debug\PMA.Repositories.dll
+D:\Projects\iTechArt Products management\PMA\PMA.Repositories\obj\Debug\PMA.Repositories.pdb

@@ -1,0 +1,5 @@
+D:\Projects\iTechArt Products management\PMA\PMA.Helpers\bin\Debug\PMA.Helpers.dll
+D:\Projects\iTechArt Products management\PMA\PMA.Helpers\bin\Debug\PMA.Helpers.pdb
+D:\Projects\iTechArt Products management\PMA\PMA.Helpers\obj\Debug\PMA.Helpers.csprojResolveAssemblyReference.cache
+D:\Projects\iTechArt Products management\PMA\PMA.Helpers\obj\Debug\PMA.Helpers.dll
+D:\Projects\iTechArt Products management\PMA\PMA.Helpers\obj\Debug\PMA.Helpers.pdb
