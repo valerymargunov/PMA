@@ -31,7 +31,7 @@
             "edit-note/:id": "editNote",
             "administration": "showAdmin",
             "users": "showUsers",
-            "adminCategories": "showAdminCategory",
+            "adminCategories": "showAdminCategories",
             "adminProducts": "showAdminProducts",
             "products": "showProducts",
             "basket": "showBasket",
@@ -42,7 +42,18 @@
         showUsers: function () {
             this.showView(new views.UsersView());
         },
-
+        showAdminCategories: function () {
+            this.showView(new views.AdminCategoriesView());
+        },
+        showAdminProducts: function () {
+            this.showView(new views.AdminProductsView());
+        },
+        showProducts: function () {
+            this.showView(new views.ProductsView());
+        },
+        showBasket: function () {
+            this.showView(new views.BasketView());
+        },
         showView: function (view) {
             if (_.has(this.views, view.container)) {
                 views[view.container].remove();

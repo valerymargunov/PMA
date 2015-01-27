@@ -168,6 +168,10 @@
     <Content Include="app\js\app\app.js" />
     <Content Include="app\js\app\collections\categoryList.js" />
     <Content Include="app\js\app\models\categoryModel.js" />
+    <Content Include="app\js\app\views\basketView.js" />
+    <Content Include="app\js\app\views\productsView.js" />
+    <Content Include="app\js\app\views\adminProductsView.js" />
+    <Content Include="app\js\app\views\adminCategoriesView.js" />
     <Content Include="app\js\app\views\categoryListView.js" />
     <Content Include="app\js\app\views\usersView.js" />
     <Content Include="app\js\app\views\adminView.js" />

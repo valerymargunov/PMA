@@ -14,12 +14,29 @@
             <a href="#adminProducts"><i class="icon-book"></i> Products</a>
         </div>
     </script>
+
     <script type="text/template" id="usersTemplate">
         <div>
             <a href="#products"><i class="icon-book"></i> Products</a>
             <br />
             <a href="#basket"><i class="icon-book"></i> Basket</a>
         </div>
+    </script>
+
+    <script type="text/template" id="adminCategoriesTemplate">
+        <div>adminCategories</div>
+    </script>
+
+    <script type="text/template" id="adminProductsTemplate">
+        <div>adminProducts</div>
+    </script>
+
+    <script type="text/template" id="productsTemplate">
+        <div>products</div>
+    </script>
+
+    <script type="text/template" id="basketTemplate">
+        <div>basket</div>
     </script>
 </head>
 <body>
@@ -54,15 +71,15 @@
                     </ul>
                 </div>
             </div>
-            <div id="content" class="span8">
+            <div id="content" class="span8 well">
 
             </div>
         </div>
     </div>
 
 
-    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
     <script type="text/javascript" src="js/libs/jquery.fancytree.js"></script>
     <!--<script type="text/javascript" src="js/libs/jquery-2.1.1.min.js"></script>-->
     <script type="text/javascript" src="js/libs/underscore.js"></script>
@@ -73,5 +90,10 @@
     <script type="text/javascript" src="js/app/views/baseview.js"></script>
     <script type="text/javascript" src="js/app/views/adminview.js"></script>
     <script type="text/javascript" src="js/app/views/usersview.js"></script>
+
+    <script type="text/javascript" src="js/app/views/adminCategoriesView.js"></script>
+    <script type="text/javascript" src="js/app/views/adminProductsView.js"></script>
+    <script type="text/javascript" src="js/app/views/productsView.js"></script>
+    <script type="text/javascript" src="js/app/views/basketView.js"></script>
 </body>
 </html>
