@@ -156,6 +156,10 @@
     <Content Include="app\css\bootstrap-responsive.css" />
     <Content Include="app\css\bootstrap.css" />
     <Content Include="app\css\bootstrap.overrides.css" />
+    <Content Include="app\css\skin-bootstrap-n\ui.fancytree.css" />
+    <Content Include="app\css\skin-win8-n\icons.gif" />
+    <Content Include="app\css\skin-win8-n\loading.gif" />
+    <Content Include="app\css\skin-win8-n\ui.fancytree.css" />
     <Content Include="app\css\style.css" />
     <Content Include="app\img\background.jpg" />
     <Content Include="app\img\glyphicons-halflings-white.png" />
@@ -170,6 +174,7 @@
     <Content Include="app\js\app\views\baseView.js" />
     <Content Include="app\js\libs\backbone.js" />
     <Content Include="app\js\libs\jquery-2.1.1.min.js" />
+    <Content Include="app\js\libs\jquery.fancytree.js" />
     <Content Include="app\js\libs\json2.js" />
     <Content Include="app\js\libs\underscore.js" />
     <Content Include="Areas\HelpPage\HelpPage.css" />
@@ -191,6 +196,8 @@
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\HelpPageApiModel.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
+    <Content Include="app\css\skin-win8-n\ui.fancytree.less" />
+    <Content Include="app\css\skin-bootstrap-n\ui.fancytree.less" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />

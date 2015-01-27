@@ -5,6 +5,7 @@
     <link type="text/css" rel="stylesheet" href="css/bootstrap.css" />
     <link type="text/css" rel="stylesheet" href="css/bootstrap-responsive.css" />
     <link type="text/css" rel="stylesheet" href="css/bootstrap.overrides.css" />
+    <link href="css/skin-win8-n/ui.fancytree.css" rel="stylesheet" type="text/css">
     <link type="text/css" rel="stylesheet" href="css/style.css" />
     <script type="text/template" id="adminTemplate">
         <div>
@@ -22,26 +23,48 @@
     </script>
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
+    <!--<div class="navbar navbar-inverse navbar-fixed-top">
         <div class="navbar-inner">
             <a class="brand" href="#administration">Administration</a>
             <a class="brand" href="#users">Users</a>
         </div>
-    </div>
+    </div>-->
 
 
 
     <div class="container-fluid">
         <div class="row-fluid">
-            <div id="sidebar" class="span2 well">
-
+            <div id="sidebar" class="span4">
+                <div id="tree">
+                    <ul id="treeData" style="display: none;">
+                        <li id="id1" class="folder expanded">
+                            Administration
+                            <ul>
+                                <li id="adminCategories">Categories</li>
+                                <li id="adminProducts">Products</li>
+                            </ul>
+                        </li>
+                        <li id="id2" class="folder expanded">
+                            Users
+                            <ul>
+                                <li id="products">Products</li>
+                                <li id="basket">Basket</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div id="content" class="span10 well">
+            <div id="content" class="span8">
 
             </div>
         </div>
     </div>
-    <script type="text/javascript" src="js/libs/jquery-2.1.1.min.js"></script>
+
+
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/libs/jquery.fancytree.js"></script>
+    <!--<script type="text/javascript" src="js/libs/jquery-2.1.1.min.js"></script>-->
     <script type="text/javascript" src="js/libs/underscore.js"></script>
     <script type="text/javascript" src="js/libs/json2.js"></script>
     <script type="text/javascript" src="js/libs/backbone.js"></script>

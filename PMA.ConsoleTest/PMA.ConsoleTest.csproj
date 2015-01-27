@@ -56,6 +56,10 @@
       <Project>{c49e90bc-566f-432f-b639-3361d9e2d0b3}</Project>
       <Name>PMA.Entities</Name>
     </ProjectReference>
+    <ProjectReference Include="..\PMA.Helpers\PMA.Helpers.csproj">
+      <Project>{5a2611a7-e51e-4bfc-a2ca-4c3a644aafd9}</Project>
+      <Name>PMA.Helpers</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -19,16 +19,16 @@ namespace PMA.ConsoleTest
             //{
             //    Name = "name"
             //};
-            //var newProduct = new Product()
-            //{
-            //    //Name = "name2",
-            //    Description = "description2",
-            //    CategoryId = 11,
-            //    Cost = 21,
-            //    Amount = 31
-            //};
+            var newProduct = new Product()
+            {
+                //Name = "name2",
+                Description = "description2",
+                CategoryId = 11,
+                Cost = 21,
+                Amount = 31
+            };
             //var deleted = mongoProduct.Remove(newProduct.Name);
-            //var inserted = mongoProduct.Insert(newProduct);
+            var inserted = mongoProduct.Insert(newProduct);
             //var result = mongoProduct.Update(product, newProduct);
             var result = mongoProduct.GetCollection();
         }
